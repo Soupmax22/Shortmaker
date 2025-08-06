@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+  max-width: 600px;
+  height: 120px;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+a#download {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #007acc;
+  text-decoration: none;
+  border-bottom: 1px dashed #007acc;
+}
+
+canvas {
+  margin-top: 30px;
+  display: none; /* Hidden canvas for video rendering */
+}
